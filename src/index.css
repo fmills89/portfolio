@@ -6,7 +6,8 @@
 
 @layer base {
     body {
-        @apply font-[Rubik];   
+        @apply font-[Rubik];
+        @apply bg-gradient-to-r from-[#262b2b] to-[#5f787b];
     }
     li {
         @apply px-4;
