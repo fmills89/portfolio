@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from 'react-scroll';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill} from 'react-icons/bs';
@@ -16,11 +17,31 @@ const Navbar = () => {
 
      
             <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li>
+                    <Link to="home" smooth={true} offset={50} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link to="about" smooth={true} offset={50} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li>
+                    <Link to="skills" smooth={true} offset={50} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li>
+                    <Link to="work" smooth={true} offset={50} duration={500}>
+                        Work
+                    </Link>
+                </li>
+                <li>
+                    <Link to="contact" smooth={true} offset={50} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             {/* hamburger menu */}
@@ -39,25 +60,25 @@ const Navbar = () => {
             {/* Social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#0d1011] to-[#eab354]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#5f787b] to-[#eab354]'>
                         <a className='flex justify-between items-center w-full text-gray-300' 
                         href='/'>
                             LinkedIn <FaLinkedin size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#0d1011] to-[#eab354]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#5f787b] to-[#eab354]'>
                         <a className='flex justify-between items-center w-full text-gray-300' 
                         href='/'>
                             Github <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#0d1011] to-[#eab354]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#5f787b] to-[#eab354]'>
                         <a className='flex justify-between items-center w-full text-gray-300' 
                         href='/'>
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#0d1011] to-[#eab354]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#5f787b] to-[#eab354]'>
                         <a className='flex justify-between items-center w-full text-gray-300' 
                         href='/'>
                             Resume <BsFillPersonLinesFill size={30} />
