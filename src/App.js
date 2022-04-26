@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './components/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import NoMatch from './pages/NoMatch';
@@ -8,12 +8,14 @@ import ContactMe from './pages/ContactMe';
 import Resume from './pages/Resume';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
       <>
-        <Header />
+        <Navbar />
+        <Home />
       </>
         <Switch>
           <Route exact path='/' component={Home} />
