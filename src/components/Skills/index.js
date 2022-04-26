@@ -1,20 +1,20 @@
 import React from 'react';
-import HTML from '../../assets/html.png';
-import CSS from '../../assets/css.png';
-import JavaScript from '../../assets/javascript.png';
-import Mongo from '../../assets/mongo.png';
-import Node from '../../assets/node.png';
-import ReactImg from '../../assets/react.png';
-import MySQL from '../../assets/mysql.png';
-import Tailwind from '../../assets/tailwind.png';
-import Heroku from '../../assets/heroku.png';
-import MongoAtlas from '../../assets/atlas.png';
+import HTML from '../../assets/logos/html.png';
+import CSS from '../../assets/logos/css.png';
+import JavaScript from '../../assets/logos/javascript.png';
+import Mongo from '../../assets/logos/mongo.png';
+import Node from '../../assets/logos/node.png';
+import ReactImg from '../../assets/logos/react.png';
+import MySQL from '../../assets/logos/mysql.png';
+import Tailwind from '../../assets/logos/tailwind.png';
+import Heroku from '../../assets/logos/heroku.png';
+import MongoAtlas from '../../assets/logos/atlas.png';
 
 
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full h-screen text-[#E0EBE6]'>
+        <div name='skills' className='w-full md:h-screen text-[#E0EBE6]'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className=''>
