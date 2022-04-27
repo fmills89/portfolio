@@ -79,6 +79,12 @@ const Navbar = () => {
                         Contact
                     </Link>
                 </li>
+                <li className='py-5 text-4xl'>
+                <a className='' 
+                    href={require('../../assets/files/Forrests-Resume.pdf')}>
+                        Resume
+                    </a>
+                </li>
             </ul>
             {/* Social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
@@ -108,9 +114,7 @@ const Navbar = () => {
                         </a>
                     </li>
                 </ul>
-
             </div>
-
         </div>
     )
 }
