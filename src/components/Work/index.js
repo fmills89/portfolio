@@ -6,13 +6,12 @@ import Thoughts from '../../assets/img/deep-thoughts-image.png';
 import Note from '../../assets/img/note-taker-image.png';
 import Weather from '../../assets/img/weather-app-image.png';
 import Run from '../../assets/img/hero-bg.jpeg';
-import Workimg from '../../assets/img/workImg.jpeg';
 
 const Work = () => {
     return (
         <div name='work' className='w-full md:h-screen text-gray-300'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div className='pb-8'>
+                <div className='pt-12'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#eab354]'>Work</p>
                     <p className='py-6'>Check out some of my recent work..</p>
                 </div>
@@ -23,15 +22,15 @@ const Work = () => {
                         className='shadow-lg shadow-[##5f787b] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Mern Group App
+                            <span className='text-lg font-bold text-white tracking-wider'>
+                                <p className='text-center'>MERN Stack</p>
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <a href='https://evening-mountain-59213.herokuapp.com/'>
+                                    <button className='text-center workbtn'>Demo</button>
                                 </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <a href='https://github.com/fmills89/poke-teams-builder'>
+                                    <button className='text-center workbtn'>Repo</button>
                                 </a>
                             </div>
                         </div>
@@ -41,15 +40,15 @@ const Work = () => {
                         className='shadow-lg shadow-[##5f787b] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Mern Group App
+                            <span className='text-lg font-bold text-white tracking-wider'>
+                                <p className='text-center'>MVC Model</p>
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <a href='https://group1-one-stop-shop.herokuapp.com/'>
+                                    <button className='text-center workbtn'>Demo</button>
                                 </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <a href='https://github.com/fmills89/one-stop-shop'>
+                                    <button className='text-center workbtn'>Repo</button>
                                 </a>
                             </div>
                         </div>
@@ -59,15 +58,15 @@ const Work = () => {
                         className='shadow-lg shadow-[##5f787b] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Mern Group App
+                            <span className='text-lg font-bold text-white tracking-wider'>
+                                <p className='text-center'>WEB APIs</p>
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <a href='https://jessebubble.github.io/brew-me/'>
+                                    <button className='text-center workbtn'>Demo</button>
                                 </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <a href='https://github.com/fmills89/brew-me'>
+                                    <button className='text-center workbtn'>Repo</button>
                                 </a>
                             </div>
                         </div>
@@ -77,15 +76,15 @@ const Work = () => {
                         className='shadow-lg shadow-[##5f787b] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Mern Group App
+                            <span className='text-lg font-bold text-white tracking-wider'>
+                                <p className='text-center'>MERN STACK</p>
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <a href='https://young-cliffs-17322.herokuapp.com/'>
+                                    <button className='text-center workbtn'>Demo</button>
                                 </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <a href='https://github.com/fmills89/deep-thoughts'>
+                                    <button className='text-center workbtn'>Repo</button>
                                 </a>
                             </div>
                         </div>
@@ -95,15 +94,15 @@ const Work = () => {
                         className='shadow-lg shadow-[##5f787b] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Mern Group App
+                            <span className='text-lg font-bold text-white tracking-wider'>
+                                <p className='text-center'>EXPRESS/JAVASCRIPT/NODE</p>
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <a href='https://ancient-retreat-03510.herokuapp.com/'>
+                                    <button className='text-center workbtn'>Demo</button>
                                 </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <a href='https://github.com/fmills89/express-note-taker'>
+                                    <button className='text-center workbtn'>Repo</button>
                                 </a>
                             </div>
                         </div>
@@ -113,15 +112,15 @@ const Work = () => {
                         className='shadow-lg shadow-[##5f787b] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Mern Group App
+                            <span className='text-lg font-bold text-white tracking-wider'>
+                                <p className='text-center'>HTML/CSS/JAVASCRIPT</p>
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <a href='https://fmills89.github.io/weather-app/'>
+                                    <button className='text-center workbtn'>Demo</button>
                                 </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <a href='https://github.com/fmills89/weather-app'>
+                                    <button className='text-center workbtn'>Code</button>
                                 </a>
                             </div>
                         </div>

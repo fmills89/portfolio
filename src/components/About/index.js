@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
     return (
@@ -12,12 +12,12 @@ const About = () => {
                     </div>
                     <div></div>
                 </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 items-baseline'>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>Hi I'm Forrest, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                        <p>
+                        <p className='sm:text-right font-smooth'>
                             Recent graduate from UTSA's six month coding Bootcamp. I always aspired to become a software developer,
                             taking the plung October 2021 I began my journey into code! My goals are to create capable, reilable, and mobile-friendly applications.
                         </p>

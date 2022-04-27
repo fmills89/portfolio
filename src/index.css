@@ -13,6 +13,13 @@
         @apply px-4;
         @apply cursor-pointer
     }
+    .workbtn {
+        @apply text-gray-700 font-bold text-lg rounded-lg 
+        shadow-lg shadow-yellow-500/50 opacity-100 hover:opacity-75
+        transition ease-in-out delay-150 bg-[#eab354] hover:scale-110 
+        hover:bg-[#5f787b] duration-300 border-2 px-4 py-3 m-2
+    }
+
 }
 
 .content-div {
@@ -29,4 +36,8 @@
         rgba(38, 43, 43, 0.8),
         hsla(199, 41%, 61%, 0.334)
     )!important;
+}
+
+.fm {
+    cursor: pointer;
 }
