@@ -23,7 +23,7 @@ const Work = () => {
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-lg font-bold text-white tracking-wider'>
-                                <p className='text-center'>MERN Stack</p>
+                                <p className='text-center'>Poke-Teams</p>
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://evening-mountain-59213.herokuapp.com/'>
@@ -41,7 +41,7 @@ const Work = () => {
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-lg font-bold text-white tracking-wider'>
-                                <p className='text-center'>MVC Model</p>
+                                <p className='text-center'>One-Stop-Shop</p>
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://group1-one-stop-shop.herokuapp.com/'>
@@ -59,7 +59,7 @@ const Work = () => {
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-lg font-bold text-white tracking-wider'>
-                                <p className='text-center'>WEB APIs</p>
+                                <p className='text-center'>Brew-Me</p>
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://jessebubble.github.io/brew-me/'>
@@ -77,7 +77,7 @@ const Work = () => {
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-lg font-bold text-white tracking-wider'>
-                                <p className='text-center'>MERN STACK</p>
+                                <p className='text-center'>Deep Thoughts</p>
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://young-cliffs-17322.herokuapp.com/'>
@@ -95,7 +95,7 @@ const Work = () => {
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-lg font-bold text-white tracking-wider'>
-                                <p className='text-center'>EXPRESS/JAVASCRIPT/NODE</p>
+                                <p className='text-center'>Express Note</p>
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://ancient-retreat-03510.herokuapp.com/'>
@@ -113,7 +113,7 @@ const Work = () => {
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-lg font-bold text-white tracking-wider'>
-                                <p className='text-center'>HTML/CSS/JAVASCRIPT</p>
+                                <p className='text-center'>Weather App</p>
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://fmills89.github.io/weather-app/'>
