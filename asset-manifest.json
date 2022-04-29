@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1f5af661.css",
-    "main.js": "/portfolio/static/js/main.5571f85a.js",
+    "main.css": "/portfolio/static/css/main.81dbc3a4.css",
+    "main.js": "/portfolio/static/js/main.3d5f5cd0.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/one-stop-shop-demo.gif": "/portfolio/static/media/one-stop-shop-demo.7adc175aa495bddc7db9.gif",
     "static/media/mern-group-image.png": "/portfolio/static/media/mern-group-image.fe11d2e679bff39fc7f5.png",
@@ -23,12 +23,12 @@
     "static/media/rest.png": "/portfolio/static/media/rest.fa9d4e0cabee69c615f0.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.1f5af661.css.map": "/portfolio/static/css/main.1f5af661.css.map",
-    "main.5571f85a.js.map": "/portfolio/static/js/main.5571f85a.js.map",
+    "main.81dbc3a4.css.map": "/portfolio/static/css/main.81dbc3a4.css.map",
+    "main.3d5f5cd0.js.map": "/portfolio/static/js/main.3d5f5cd0.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f5af661.css",
-    "static/js/main.5571f85a.js"
+    "static/css/main.81dbc3a4.css",
+    "static/js/main.3d5f5cd0.js"
   ]
 }
