@@ -12,7 +12,7 @@ const Home = () => {
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#E0EBE6]'>Forrest Mills</h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-[#E0EBE6]'>I'm a full stack developer..</h2>
                 <p className='text-[#DFF7F7] py-4 max-w-[700px]'>Full-stack developer with experience in agile environments and the ability 
-                to create capable, reliable, and mobile-first applications. Lets collaborate!
+                to create capable, reliable, and mobile-first applications. Let's collaborate!
                 </p>
                 <div>
                     <Link to='work' smooth={true} offset={50} duration={600}>

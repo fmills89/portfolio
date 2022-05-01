@@ -120,7 +120,7 @@ const Work = () => {
                                     <button className='text-center workbtn'>Demo</button>
                                 </a>
                                 <a href='https://github.com/fmills89/weather-app'>
-                                    <button className='text-center workbtn'>Code</button>
+                                    <button className='text-center workbtn'>Repo</button>
                                 </a>
                             </div>
                         </div>
