@@ -1,6 +1,6 @@
 import React from 'react';
 import Mern from '../../assets/img/mern-group-image.png';
-import Shop from '../../assets/img/one-stop-shop-demo.gif';
+import Forkify from '../../assets/img/forkify.png';
 import Brew from '../../assets/img/brew-me-image.jpg';
 import Thoughts from '../../assets/img/deep-thoughts-image.png';
 import Note from '../../assets/img/note-taker-image.png';
@@ -39,19 +39,19 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Shop})` }}
+            style={{ backgroundImage: `url(${Forkify})` }}
             className="shadow-lg shadow-[##5f787b] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-lg font-bold text-white tracking-wider">
-                <p className="text-center">One-Stop-Shop</p>
+                <p className="text-center">Forkify</p>
               </span>
               <div className="pt-8 text-center">
-                <a href="https://group1-one-stop-shop.herokuapp.com/">
+                <a href="https://forkify-fmills89.netlify.app/">
                   <button className="text-center workbtn">Demo</button>
                 </a>
-                <a href="https://github.com/fmills89/one-stop-shop">
+                <a href="https://github.com/fmills89/forkify">
                   <button className="text-center workbtn">Repo</button>
                 </a>
               </div>
@@ -67,7 +67,7 @@ const Work = () => {
                 <p className="text-center">Brew-Me</p>
               </span>
               <div className="pt-8 text-center">
-                <a href="https://jessebubble.github.io/brew-me/">
+                <a href="https://fmills89.github.io/brew-me/">
                   <button className="text-center workbtn">Demo</button>
                 </a>
                 <a href="https://github.com/fmills89/brew-me">
