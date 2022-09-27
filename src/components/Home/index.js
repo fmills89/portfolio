@@ -7,7 +7,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-2xl font-bold text-[#eab354]">Hi, my name is</p>
+        <p className="text-2xl font-bold text-[#86c913]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#E0EBE6]">
           Forrest Mills
         </h1>
@@ -20,7 +20,7 @@ const Home = () => {
         </p>
         <div>
           <Link to="work" smooth={true} offset={50} duration={600}>
-            <button className=" group border-2 rounded-lg workbtn px-6 py-3 flex items-center hover:bg-[#eab354] hover:border-[#eab354]">
+            <button className=" group border-2 rounded-lg workbtn px-6 py-3 flex items-center hover:bg-[#86c913] hover:border-[#86c913]">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />

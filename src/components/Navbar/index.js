@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#262b2b] to-[#5f787b] text-[#E0EBE6]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#048047] to-[#13626a] text-[#E0EBE6]">
       <div>
         <Link to="home" smooth={true} offset={50} duration={500}>
           <img
@@ -130,7 +130,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[grey] to-[#eab354]">
+          <li className="socialPopouts">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/forrest-mills-dev"
@@ -138,7 +138,7 @@ const Navbar = () => {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[grey] to-[#eab354]">
+          <li className="socialPopouts">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/fmills89"
@@ -146,7 +146,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[grey] to-[#eab354]">
+          <li className="socialPopouts">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:mills_forrest@yahoo.com"
@@ -154,7 +154,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[grey] to-[#eab354]">
+          <li className="socialPopouts">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={require('../../assets/files/Forrests-Resume.pdf')}

@@ -25,49 +25,49 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8">
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img className="w-20 mx-auto" src={HTML} alt="html icon" />
               <p className="my-4">HTML</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img className="w-20 mx-auto" src={CSS} alt="css icon" />
               <p className="my-4">CSS</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img className="w-20 mx-auto" src={JavaScript} alt="JS icon" />
               <p className="my-4">JAVASCRIPT</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img className="w-20 mx-auto" src={Mongo} alt="Mongodb icon" />
               <p className="my-4">MONGODB</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img className="w-20 mx-auto" src={Node} alt="Node.js icon" />
               <p className="my-4">NODE.JS</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img className="w-20 mx-auto" src={ReactImg} alt="React icon" />
               <p className="my-4">REACT.JS</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img className="w-20 mx-auto" src={MySQL} alt="MySQL icon" />
               <p className="my-4">MYSQL</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img
                 className="w-20 mx-auto"
@@ -77,13 +77,13 @@ const Skills = () => {
               <p className="my-4">TAILWINDCSS</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img className="w-20 mx-auto" src={Heroku} alt="Heroku icon" />
               <p className="my-4">HEROKU</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img
                 className="w-20 mx-auto"
@@ -93,7 +93,7 @@ const Skills = () => {
               <p className="my-4">MONGO ATLAS</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img
                 className="w-20 mx-auto"
@@ -103,7 +103,7 @@ const Skills = () => {
               <p className="my-4">REST APIs</p>
             </div>
           </div>
-          <div className="shadow-md shadow-[grey] hover:scale-110 duration-500">
+          <div className="skillsCard">
             <div className="p-4">
               <img
                 className="w-20 mx-auto"

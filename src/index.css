@@ -5,39 +5,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @layer base {
-    body {
-        @apply font-[Rubik];
-        @apply bg-gradient-to-r from-[#262b2b] to-[#5f787b];
-    }
-    li {
-        @apply px-4;
-        @apply cursor-pointer
-    }
-    .workbtn {
-        @apply text-gray-700 font-bold text-lg rounded-lg 
-        shadow-lg shadow-yellow-500/50 opacity-100 hover:opacity-75
-        transition ease-in-out delay-150 bg-[#eab354] hover:scale-110 
-        hover:bg-[#5f787b] duration-300 border-2 px-4 py-3 m-2
-    }
-
+  body {
+    @apply font-[Rubik];
+    @apply bg-gradient-to-r from-[#048047] to-[#13626a];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+  .workbtn {
+    @apply text-gray-700 font-bold text-lg rounded-lg 
+        shadow-lg shadow-green-500/50 opacity-100 hover:opacity-75
+        transition ease-in-out delay-150 bg-[#86c913] hover:scale-110 
+        hover:bg-[#5f787b] duration-300 border-2 px-4 py-3 m-2;
+  }
 }
 
 .content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
 }
 
 .content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        rgba(38, 43, 43, 0.8),
-        hsla(199, 41%, 61%, 0.334)
-    )!important;
+  background-image: linear-gradient(
+    to right,
+    rgba(38, 43, 43, 0.8),
+    hsla(199, 41%, 61%, 0.334)
+  ) !important;
 }
 
 .fm {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.skillsCard {
+  @apply shadow-md shadow-[grey] hover:scale-110 duration-500 rounded-xl p-4;
+}
+
+.socialPopouts {
+  @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#13626a] to-[#86c913];
 }
