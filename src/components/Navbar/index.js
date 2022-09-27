@@ -132,7 +132,7 @@ const Navbar = () => {
         <ul>
           <li className="socialPopouts">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="socialPopoutsAccent"
               href="https://www.linkedin.com/in/forrest-mills-dev"
             >
               LinkedIn <FaLinkedin size={30} />
@@ -140,7 +140,7 @@ const Navbar = () => {
           </li>
           <li className="socialPopouts">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="socialPopoutsAccent"
               href="https://github.com/fmills89"
             >
               Github <FaGithub size={30} />
@@ -148,7 +148,7 @@ const Navbar = () => {
           </li>
           <li className="socialPopouts">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="socialPopoutsAccent"
               href="mailto:mills_forrest@yahoo.com"
             >
               Email <HiOutlineMail size={30} />
@@ -156,7 +156,7 @@ const Navbar = () => {
           </li>
           <li className="socialPopouts">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="socialPopoutsAccent"
               href={require('../../assets/files/Forrests-Resume.pdf')}
             >
               Resume <BsFillPersonLinesFill size={30} />

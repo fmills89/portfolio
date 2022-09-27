@@ -47,3 +47,11 @@
 .socialPopouts {
   @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#13626a] to-[#86c913];
 }
+
+.socialPopoutsAccent {
+  @apply flex justify-between items-center w-full text-gray-300;
+}
+
+.mobileFooter {
+  @apply w-[60px] h-[60px] flex bg-[#86c913] opacity-75 hover:opacity-100;
+}
