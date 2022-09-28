@@ -1,12 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.aa895e86.css",
-    "main.js": "/portfolio/static/js/main.5aa588cc.js",
+    "main.css": "/portfolio/static/css/main.9f767a18.css",
+    "main.js": "/portfolio/static/js/main.7b2fe704.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/mern-group-image.png": "/portfolio/static/media/mern-group-image.fe11d2e679bff39fc7f5.png",
-    "static/media/hero-bg.jpeg": "/portfolio/static/media/hero-bg.000e1b5ff4f0b912c97f.jpeg",
-    "static/media/deep-thoughts-image.png": "/portfolio/static/media/deep-thoughts-image.cd86a0b142396bb27a2d.png",
-    "static/media/weather-app-image.png": "/portfolio/static/media/weather-app-image.a4382766dee0ac501d82.png",
     "static/media/forkify.png": "/portfolio/static/media/forkify.0ad165c857fe105e532b.png",
     "static/media/logo.png": "/portfolio/static/media/logo.954fa6a78cb922426c3c.png",
     "static/media/brew-me-image.jpg": "/portfolio/static/media/brew-me-image.475e221d94347e8527f4.jpg",
@@ -23,12 +20,12 @@
     "static/media/rest.png": "/portfolio/static/media/rest.fa9d4e0cabee69c615f0.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.aa895e86.css.map": "/portfolio/static/css/main.aa895e86.css.map",
-    "main.5aa588cc.js.map": "/portfolio/static/js/main.5aa588cc.js.map",
+    "main.9f767a18.css.map": "/portfolio/static/css/main.9f767a18.css.map",
+    "main.7b2fe704.js.map": "/portfolio/static/js/main.7b2fe704.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa895e86.css",
-    "static/js/main.5aa588cc.js"
+    "static/css/main.9f767a18.css",
+    "static/js/main.7b2fe704.js"
   ]
 }
