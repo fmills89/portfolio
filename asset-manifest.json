@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9f767a18.css",
-    "main.js": "/portfolio/static/js/main.7b2fe704.js",
+    "main.js": "/portfolio/static/js/main.b83d2868.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/weather-app.png": "/portfolio/static/media/weather-app.b8668979f29edb843936.png",
     "static/media/mern-group-image.png": "/portfolio/static/media/mern-group-image.fe11d2e679bff39fc7f5.png",
     "static/media/forkify.png": "/portfolio/static/media/forkify.0ad165c857fe105e532b.png",
     "static/media/logo.png": "/portfolio/static/media/logo.954fa6a78cb922426c3c.png",
     "static/media/brew-me-image.jpg": "/portfolio/static/media/brew-me-image.475e221d94347e8527f4.jpg",
     "static/media/heroku.png": "/portfolio/static/media/heroku.8404fe879e3a6d06f52f.png",
     "static/media/Forrests-Resume.pdf": "/portfolio/static/media/Forrests-Resume.be6026a07863468293da.pdf",
-    "static/media/note-taker-image.png": "/portfolio/static/media/note-taker-image.2fed3e47d0a8956f584d.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -21,11 +21,11 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.9f767a18.css.map": "/portfolio/static/css/main.9f767a18.css.map",
-    "main.7b2fe704.js.map": "/portfolio/static/js/main.7b2fe704.js.map",
+    "main.b83d2868.js.map": "/portfolio/static/js/main.b83d2868.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f767a18.css",
-    "static/js/main.7b2fe704.js"
+    "static/js/main.b83d2868.js"
   ]
 }
