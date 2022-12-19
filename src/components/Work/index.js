@@ -81,7 +81,7 @@ const Work = () => {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-lg font-bold text-white tracking-wider">
-                <p className="text-center">Express Note</p>
+                <p className="text-center">Weather-App</p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://main--heroic-cactus-a367a9.netlify.app/">
