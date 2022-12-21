@@ -5,7 +5,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <div className="w-full h-[80px] lg:hidden flex justify-around pt-5">
+    // <div className="relative">
+    <div className="w-full h-[80px] md:hidden flex justify-end pt-5">
       <ul className="flex text-[#E0EBE6]">
         <li className="mobileFooter">
           <a
@@ -35,13 +36,14 @@ const Footer = () => {
         <li className="mobileFooter">
           <a
             className="flex items-center w-full"
-            href={require('../../assets/files/Forrests-Resume.pdf')}
+            href={require('../../assets/files/Forrest-Mills-Resume.pdf')}
           >
             <BsFillPersonLinesFill size={30} />
           </a>
         </li>
       </ul>
     </div>
+    // </div>
   );
 };
 
