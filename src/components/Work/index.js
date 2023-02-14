@@ -26,7 +26,7 @@ const Work = () => {
                 <p className="text-center">Poke-Teams</p>
               </span>
               <div className="pt-8 text-center">
-                <a href="https://evening-mountain-59213.herokuapp.com/">
+                <a href="https://afternoon-eyrie-17690.herokuapp.com/">
                   <button className="text-center workbtn">Demo</button>
                 </a>
                 <a href="https://github.com/fmills89/poke-teams-builder">
