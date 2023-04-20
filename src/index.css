@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-[Rubik];
+    @apply font-[Rubik] text-slate-200;
     @apply bg-gradient-to-r from-[#048047] to-[#13626a];
   }
   li {
@@ -38,10 +38,6 @@
 
 .fm {
   cursor: pointer;
-}
-
-.skillsCard {
-  @apply shadow-md shadow-[grey] hover:scale-110 duration-500 rounded-xl p-4;
 }
 
 .socialPopouts {

@@ -6,8 +6,8 @@ const style = {
   homeContainer: `w-full h-screen `,
   headerContainer: `max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full `,
   headerFont: `text-2xl font-bold text-[#86c913]`,
-  header2Font: `text-4xl sm:text-7xl font-bold text-[#E0EBE6] border-b-4 w-[144px] md:w-[290px] border-[#86c913]`,
-  pFont: `text-[#DFF7F7] py-4 max-w-[700px]`,
+  header2Font: `text-4xl sm:text-7xl font-bold border-b-4 w-[144px] md:w-[290px] border-[#86c913]`,
+  pFont: `py-4 max-w-[700px] font-bold`,
   button: `group border-2 rounded-lg workbtn px-6 py-3 flex items-center hover:bg-[#86c913] hover:border-[#86c913]`,
   buttonSpan: `group-hover:rotate-90 duration-300`,
 };

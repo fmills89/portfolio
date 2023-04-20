@@ -7,7 +7,7 @@ import logo from '../../assets/logos/logo.png';
 import Footer from '../Footer';
 
 const style = {
-  headerContainer: `fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#048047] to-[#13626a] text-[#E0EBE6]`,
+  headerContainer: `fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#048047]/50 to-[#13626a]/50 text-[#E0EBE6]`,
   navContainer: `hidden md:flex`,
   button: ` md:w-[100px] w-14 md:w-20 h-[40px] rounded-md mt-5 md:mt-8 m-2 text-xs md:text-sm hover:underline underline-offset-4 text-slate-200 `,
   mobileMenu: `absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-[#262b2b] to-[grey] flex flex-col justify-center items-center`,
