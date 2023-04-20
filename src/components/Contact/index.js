@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 
 const style = {
@@ -23,14 +24,63 @@ const Contact = () => {
 
   console.log(data);
 
+  const resetForm = () => {
+    setData({
+      name: '',
+      email: '',
+      message: '',
+      sent: false,
+      buttonText: 'Submit',
+      err: '',
+    });
+  };
+
   const handleChange = e => {
-    e.preventDefault();
     const { name, value } = e.target;
     setData({ ...data, [name]: value });
   };
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    setData({ ...data, buttonText: 'Sending...' });
+    axios
+      .post('/api/sendmail', data)
+      .then(res => {
+        if (res.data.result !== 'success') {
+          setData({
+            ...data,
+            buttonText: 'Failed to send!',
+            sent: false,
+            err: 'fail',
+          });
+          setTimeout(() => {
+            resetForm();
+          }, 2000);
+        } else {
+          alert('Message sent!');
+          setData({
+            ...data,
+            sent: true,
+            buttonText: 'Sent',
+            err: 'Success',
+          });
+          setTimeout(() => {
+            resetForm();
+          }, 2000);
+        }
+      })
+      .catch(error => {
+        setData({
+          ...data,
+          buttonText: 'Failed to send.',
+          err: 'Fail',
+        });
+      });
+  };
+
   return (
     <div name="contact" className={style.container}>
-      <form className={style.form}>
+      <form className={style.form} onSubmit={handleSubmit}>
         <div className={style.pContainer}>
           <h3 className={style.headerStyle}>Contact</h3>
           <p className={style.textStyle}>
