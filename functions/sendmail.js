@@ -23,4 +23,30 @@ exports.handler = async function (event, context) {
       body: 'Only POST requests allowed',
     };
   }
+  let data = JSON.parse(event.body);
+  if (!data) {
+    return {
+      statusCode: 400,
+      body: 'Please provide all values.',
+    };
+  }
+  try {
+    transporter.sendMail({
+      from: data.name,
+      to: email,
+      subject: 'Contact Form Submission',
+      html: `<p>Name: ${data.name}</p> <p>Email: ${data.email}</p> <p>Message: ${data.message}</p>`,
+    });
+    return {
+      statusCode: 200,
+      body: JSON.stringify({
+        result: 'success',
+      }),
+    };
+  } catch (error) {
+    return {
+      statusCode: 400,
+      body: JSON.stringify(error.message),
+    };
+  }
 };
