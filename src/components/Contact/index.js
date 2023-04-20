@@ -1,5 +1,5 @@
-import axios from 'axios';
 import React, { useState } from 'react';
+import axios from 'axios';
 
 const style = {
   container: `w-full h-screen flex justify-center items-center p-4`,
@@ -40,7 +40,7 @@ const Contact = () => {
     setData({ ...data, [name]: value });
   };
 
-  const handleSubmit = e => {
+  const handleSubmit = async e => {
     e.preventDefault();
     setData({ ...data, buttonText: 'Sending...' });
     axios
