@@ -69,7 +69,7 @@ const Contact = () => {
           }, 2000);
         }
       })
-      .catch(error => {
+      .catch(err => {
         setData({
           ...data,
           buttonText: 'Failed to send.',

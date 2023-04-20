@@ -9,6 +9,7 @@ const port = process.env.REACT_APP_NODEMAILER_PORT;
 let transporter = nodemailer.createTransport({
   host: host,
   port: port,
+  secure: false,
   auth: {
     user: email,
     pass: pass,
@@ -31,7 +32,7 @@ exports.handler = async function (event, context) {
     };
   }
   try {
-    transporter.sendMail({
+    await transporter.sendMail({
       from: data.name,
       to: email,
       subject: 'Contact Form Submission',
