@@ -14,7 +14,7 @@ import Mongoose from '../../assets/logos/mongoose.png';
 
 const style = {
   skillsScreen: `w-full md:h-screen`,
-  skillsContainer: `bg-slate-900/75 max-w-[1000px] border-2 border-stone-900/75 shadow-xl rounded-lg mx-auto p-4 flex flex-col justify-center w-full h-full`,
+  skillsContainer: `max-w-[1000px] mx-auto p-3 flex flex-col justify-center w-full h-full`,
   skillsHeader: `text-4xl font-bold inline border-b-4 border-[#86c913]`,
   skillGrid: `w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 mt-16`,
   skillsCard: ` hover:scale-110 duration-500 rounded-xl p-4`,
