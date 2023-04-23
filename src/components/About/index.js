@@ -3,11 +3,11 @@ import React from 'react';
 const style = {
   aboutScreen: `w-full h-screen`,
   aboutSection: `flex flex-col justify-center items-center w-full h-full`,
-  aboutHeaderContainer: `max-w-[1000px] w-full pb-8 pl-4 `,
+  aboutHeaderContainer: `max-w-[1000px] w-full text-center md:text-left mdtext-left pb-8 md:pl-4 `,
   aboutHeader: `text-4xl font-bold inline border-b-4 border-[#86c913]`,
   aboutGrid: `max-w-[1000px] w-full grid sm:grid-cols-1 items-center gap-8 px-4`,
-  leftCol: `sm:text-left text-xl font-bold`,
-  rightCol: `sm:text-left font-bold text-lg pr-8 w-2/3`,
+  leftCol: `sm:text-left text-center text-xl font-bold`,
+  rightCol: `sm:text-left text-center font-bold text-lg md:pr-8 md:w-2/3 w-auto`,
 };
 
 const About = () => {

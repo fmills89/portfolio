@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const style = {
-  container: `w-full h-screen flex justify-center items-center p-4`,
+  container: `w-full h-screen flex justify-center items-center p-4 my-40`,
   form: `flex flex-col w-[600px]`,
-  pContainer: `pb-8`,
+  pContainer: `pb-8 text-center md:text-left`,
   headerStyle: `text-4xl font-bold inline border-b-4 border-[#86c913]`,
-  textStyle: `pt-4 flex items-center`,
+  textStyle: `pt-4`,
   emailButton: `ml-3`,
   inputStyle: `p-2 bg-[#e0ebe6] rounded-md my-2 text-slate-900`,
   button: `flex items-center mx-auto mt-8 bg-[#86c913] p-4 rounded-lg text-slate-900/75 shadow-xl font-bold`,

@@ -3,11 +3,11 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 
 const style = {
-  homeContainer: `w-full h-screen `,
-  headerContainer: `max-w-[1000px] mx-auto pl-3 md:px-6 flex flex-col justify-center h-full `,
+  homeContainer: `w-full h-screen`,
+  headerContainer: `max-w-[1000px] mx-auto pl-3 md:px-6 flex flex-col justify-center h-full`,
   headerFont: `text-2xl font-bold text-[#86c913]`,
   header2Font: `text-4xl sm:text-7xl font-bold border-b-4 w-[144px] md:w-[290px] border-[#86c913]`,
-  pFont: `py-4 max-w-[800px] font-bold w-2/3`,
+  pFont: `py-4 max-w-[800px] font-bold md:w-2/3`,
   button: `group shadow-xl rounded-lg px-6 py-3 flex items-center text-slate-900/75 font-bold bg-[#86c913] hover:bg-[#86c913] hover:border-[#86c913]`,
   buttonSpan: `group-hover:rotate-90 duration-300`,
 };

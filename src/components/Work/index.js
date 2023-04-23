@@ -6,16 +6,17 @@ import Weather from '../../assets/img/weather-app.png';
 
 const style = {
   workScreen: `w-full md:h-screen my-60`,
-  workContainer: `max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full px-3`,
-  workHeader: `text-4xl font-bold inline border-b-4 border-[#86c913]`,
+  workContainer: `max-w-[1000px] md:text-left text-center mx-auto p-4 flex flex-col justify-center w-full h-full px-3`,
+  workHeader: `text-4xl font-bold text-center inline border-b-4 border-[#86c913]`,
   workGrid: `grid sm:grid-cols-2 md:grid-cols-2 gap-4 pt-8`,
-  imgContainer: `shadow-lg shadow-[##5f787b] group container rounded-md flex justify-center items-center mx-auto content-div`,
-  projectTitle: `text-lg font-bold pb-10 tracking-wider`,
-  label: `pb-2 text-slate-900/75 `,
-  buttonContainer: `pt-2 text-center text-slate-900/75 `,
+  imgContainer: `shadow-lg shadow-[##5f787b] rounded-md flex justify-center items-center mx-6 content-div `,
+  projectTitle: `text-lg font-bold tracking-wider flex justify-center`,
+  label: `p-2 text-amber-400 m-4 text-center hover:scale-110 w-70 underline underline-offset-8`,
+  buttonContainer: `pt-2 m-4 text-center text-slate-900/75`,
   workBtn: `font-bold text-lg rounded-lg 
   shadow-lg shadow-green-500/50 transition ease-in-out bg-[#86c913] hover:scale-110 
-  hover:bg-stone-900/75 duration-400 px-4 py-3 m-2`,
+  hover:bg-amber-300/75 duration-400 px-4 py-3 m-2`,
+  projectTile: `border-4 border-slate-800 rounded-lg bg-slate-800/75 my-6`,
 };
 
 const Work = () => {
@@ -28,7 +29,7 @@ const Work = () => {
         </div>
 
         <div className={style.workGrid}>
-          <div>
+          <div className={style.projectTile}>
             <span className={style.projectTitle}>
               <p className={style.label}>Poke-Teams</p>
             </span>
@@ -45,7 +46,7 @@ const Work = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className={style.projectTile}>
             <span className={style.projectTitle}>
               <p className={style.label}>Forkify</p>
             </span>
@@ -62,7 +63,7 @@ const Work = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className={style.projectTile}>
             <span className={style.projectTitle}>
               <p className={style.label}>Brew-Me</p>
             </span>
@@ -79,7 +80,7 @@ const Work = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className={style.projectTile}>
             <span className={style.projectTitle}>
               <p className={style.label}>Weather-App</p>
             </span>

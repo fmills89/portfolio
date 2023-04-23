@@ -13,10 +13,10 @@ import Rest from '../../assets/logos/rest.png';
 import Mongoose from '../../assets/logos/mongoose.png';
 
 const style = {
-  skillsScreen: `w-full md:h-screen`,
-  skillsContainer: `max-w-[1000px] mx-auto p-3 flex flex-col justify-center w-full h-full`,
+  skillsScreen: `w-full md:h-screen py-40`,
+  skillsContainer: `max-w-[1000px] text-center md:text-left mx-auto p-3 flex flex-col justify-center w-full h-full`,
   skillsHeader: `text-4xl font-bold inline border-b-4 border-[#86c913]`,
-  skillGrid: `w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 mt-16`,
+  skillGrid: `w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center md:py-8 md:mt-16 mt-10`,
   skillsCard: ` hover:scale-110 duration-500 rounded-xl p-4`,
   imgContainer: ``,
   imgStyle: `w-20 mx-auto`,
