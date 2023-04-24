@@ -4,13 +4,13 @@ import axios from 'axios';
 const style = {
   container: `w-full h-screen flex justify-center items-center`,
   formContainer: `max-w-[1000px] `,
-  form: `flex flex-col w-[300px] md:w-[600px] pt-60`,
+  form: `flex flex-col w-[300px] md:w-[600px] `,
   pContainer: `pb-8 text-center md:text-left`,
-  headerStyle: `text-4xl font-bold inline border-b-4 border-[#86c913]`,
-  textStyle: `pt-4`,
+  headerStyle: `text-4xl font-bold boxDeco w-[150px]`,
+  textStyle: `py-2 mt-2 boxDeco w-[270px]`,
   emailButton: `ml-3`,
   inputStyle: `p-2 bg-[#e0ebe6] rounded-md my-2 text-slate-900`,
-  button: `flex items-center mx-auto mt-8 bg-[#86c913] p-4 rounded-lg text-slate-900/75 shadow-xl font-bold`,
+  button: `flex items-center mx-auto my-8 bg-lime-600/75 p-2 px-4 rounded-lg shadow-xl font-bold`,
 };
 
 const Contact = () => {

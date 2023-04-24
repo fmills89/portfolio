@@ -15,9 +15,10 @@ import Mongoose from '../../assets/logos/mongoose.png';
 const style = {
   skillsScreen: `w-full md:h-screen py-40`,
   skillsContainer: `max-w-[1000px] text-center md:text-left mx-auto p-3 flex flex-col justify-center w-full h-full`,
-  skillsHeader: `text-4xl font-bold inline border-b-4 border-[#86c913]`,
-  skillGrid: `w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center md:py-8 md:mt-16 mt-10`,
-  skillsCard: ` hover:scale-110 duration-500 rounded-xl p-4`,
+  skillsHeader: `text-4xl font-bold text-center md:text-left w-[102px] boxDeco tracking-wide`,
+  skillsP: `mt-2 boxDeco w-64 font-bold tracking-wide text-left`,
+  skillGrid: `w-full grid grid-cols-2 sm:grid-cols-4 md:gap-2 text-center md:mt-16 mt-10 `,
+  skillsCard: ` hover:scale-110 duration-500 rounded-xl p-6 m-2 md:m-6 bg-gradient-to-t from-slate-800/50 to-emerald-900/50`,
   imgContainer: ``,
   imgStyle: `w-20 mx-auto`,
   label: `my-4`,
@@ -28,8 +29,11 @@ const Skills = () => {
     <div name="skills" className={style.skillsScreen}>
       {/* Container */}
       <div className={style.skillsContainer}>
-        <div className="">
+        <div>
           <p className={style.skillsHeader}>Skills</p>
+          <p className={style.skillsP}>
+            Technologies and languages I am familiar with.
+          </p>
         </div>
         <div className={style.skillGrid}>
           <div className={style.skillsCard}>
@@ -84,7 +88,7 @@ const Skills = () => {
               <p className={style.label}>TAILWINDCSS</p>
             </div>
           </div>
-          <div className={style.skillsCard}>
+          {/* <div className={style.skillsCard}>
             <div className={style.imgContainer}>
               <img className={style.imgStyle} src={Heroku} alt="Heroku icon" />
               <p className={style.label}>HEROKU</p>
@@ -119,7 +123,7 @@ const Skills = () => {
               />
               <p className={style.label}>MONGOOSE.JS</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -6,8 +6,8 @@
 
 @layer base {
   body {
-    @apply font-[Rubik] text-stone-200;
-    @apply bg-gradient-to-r from-[#048047] to-[#13626a];
+    @apply font-[Rubik] text-white;
+    @apply bg-gradient-to-b from-zinc-900 to-emerald-900;
   }
   li {
     @apply px-4;
@@ -27,13 +27,17 @@
 }
 
 .socialPopouts {
-  @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#13626a] to-[#86c913];
+  @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#13626a] to-lime-600/75;
 }
 
 .socialPopoutsAccent {
-  @apply flex justify-between items-center w-full text-gray-300;
+  @apply flex justify-between items-center w-full;
 }
 
 .mobileFooter {
   @apply w-[60px] h-[60px] flex rounded-lg bg-[#86c913] opacity-75 hover:opacity-100;
+}
+
+.boxDeco {
+  @apply box-decoration-clone bg-gradient-to-l from-lime-600/50 to-blue-700/50 skew-y-2;
 }

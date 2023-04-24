@@ -7,9 +7,9 @@ import logo from '../../assets/logos/logo.png';
 import Footer from '../Footer';
 
 const style = {
-  headerContainer: `fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#048047]/50 to-[#13626a]/50`,
+  headerContainer: `fixed w-full h-[80px] flex justify-between items-center px-4 bg-zinc-900/75 z-10 top-0`,
   navContainer: `hidden md:flex`,
-  button: ` md:w-[100px] w-14 md:w-22 h-[30px] bg-teal-900 rounded-md m-2 text-xs md:text-sm hover:underline underline-offset-4`,
+  button: ` md:w-[100px] w-14 md:w-22 h-[30px] bg-lime-600/75 rounded-md m-2 text-xs md:text-sm hover:underline underline-offset-4`,
   mobileMenu: `absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-[#048047] to-[#13626a] flex flex-col justify-center items-center`,
   mobileLi: `py-5 text-4xl underline underline-offset-8`,
   socialIcons: `hidden lg:flex fixed flex-col top-[35%] left-0 `,
@@ -62,7 +62,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <ul className={!nav ? 'hidden' : style.mobileMenu}>
-          <li className={style.mobileLi}>
+          {/* <li className={style.mobileLi}>
             <Link
               onClick={handleClick}
               to="home"
@@ -72,7 +72,7 @@ const Navbar = () => {
             >
               Home
             </Link>
-          </li>
+          </li> */}
           <li className={style.mobileLi}>
             <Link
               onClick={handleClick}
