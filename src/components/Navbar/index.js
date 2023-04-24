@@ -7,15 +7,16 @@ import logo from '../../assets/logos/logo.png';
 import Footer from '../Footer';
 
 const style = {
-  headerContainer: `fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#048047]/50 to-[#13626a]/50 text-[#E0EBE6]`,
+  headerContainer: `fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#048047]/50 to-[#13626a]/50`,
   navContainer: `hidden md:flex`,
-  button: ` md:w-[100px] w-14 md:w-20 h-[40px] rounded-md mt-5 md:mt-8 m-2 text-xs md:text-sm hover:underline underline-offset-4 text-slate-200 `,
+  button: ` md:w-[100px] w-14 md:w-22 h-[30px] bg-teal-900 rounded-md m-2 text-xs md:text-sm hover:underline underline-offset-4`,
   mobileMenu: `absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-[#048047] to-[#13626a] flex flex-col justify-center items-center`,
   mobileLi: `py-5 text-4xl underline underline-offset-8`,
   socialIcons: `hidden lg:flex fixed flex-col top-[35%] left-0 `,
   outerUpperSocial: `socialPopouts rounded-tr-lg`,
   innerSocial: `socialPopouts`,
   outerBottomSocial: `socialPopouts rounded-br-lg`,
+  fmLogo: `fm`,
 };
 
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
         <div>
           <Link to="home" smooth={true} offset={50} duration={500}>
             <img
-              className="fm"
+              className={style.fmLogo}
               src={logo}
               alt="initials-logo"
               style={{ width: '100px' }}
@@ -37,12 +38,12 @@ const Navbar = () => {
         </div>
 
         <div className={style.navContainer}>
-          <Link to="home" smooth={true} offset={50} duration={500}>
-            <button className={style.button}>Home</button>
-          </Link>
           <Link to="about" smooth={true} offset={50} duration={500}>
             <button className={style.button}>About</button>
           </Link>
+          {/* <Link to="about" smooth={true} offset={50} duration={500}>
+            <button className={style.button}>About</button>
+          </Link> */}
           <Link to="skills" smooth={true} offset={50} duration={500}>
             <button className={style.button}>Skills</button>
           </Link>
