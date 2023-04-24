@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const style = {
-  container: `w-full h-screen flex justify-center items-center p-4 my-40`,
-  form: `flex flex-col w-[600px]`,
+  container: `w-full h-screen flex justify-center items-center`,
+  formContainer: `max-w-[1000px] `,
+  form: `flex flex-col w-[300px] md:w-[600px] pt-60`,
   pContainer: `pb-8 text-center md:text-left`,
   headerStyle: `text-4xl font-bold inline border-b-4 border-[#86c913]`,
   textStyle: `pt-4`,
@@ -79,42 +80,44 @@ const Contact = () => {
 
   return (
     <div name="contact" className={style.container}>
-      <form className={style.form} onSubmit={handleSubmit}>
-        <div className={style.pContainer}>
-          <h3 className={style.headerStyle}>Contact</h3>
-          <p className={style.textStyle}>
-            Fill out the form below to reach me.
-          </p>
-        </div>
-        <input
-          className={style.inputStyle}
-          type="text"
-          placeholder="Name"
-          name="name"
-          value={data.name}
-          onChange={handleChange}
-          required
-        />
-        <input
-          className={style.inputStyle}
-          type="email"
-          placeholder="Email"
-          name="email"
-          value={data.email}
-          onChange={handleChange}
-          required
-        />
-        <textarea
-          className={style.inputStyle}
-          name="message"
-          rows="10"
-          placeholder="Message"
-          value={data.message}
-          onChange={handleChange}
-          required
-        ></textarea>
-        <button className={style.button}>{data.buttonText} 🛸</button>
-      </form>
+      <div className={style.formContainer}>
+        <form className={style.form} onSubmit={handleSubmit}>
+          <div className={style.pContainer}>
+            <h3 className={style.headerStyle}>Contact</h3>
+            <p className={style.textStyle}>
+              Fill out the form below to reach me.
+            </p>
+          </div>
+          <input
+            className={style.inputStyle}
+            type="text"
+            placeholder="Name"
+            name="name"
+            value={data.name}
+            onChange={handleChange}
+            required
+          />
+          <input
+            className={style.inputStyle}
+            type="email"
+            placeholder="Email"
+            name="email"
+            value={data.email}
+            onChange={handleChange}
+            required
+          />
+          <textarea
+            className={style.inputStyle}
+            name="message"
+            rows="10"
+            placeholder="Message"
+            value={data.message}
+            onChange={handleChange}
+            required
+          ></textarea>
+          <button className={style.button}>{data.buttonText} 🛸</button>
+        </form>
+      </div>
     </div>
   );
 };

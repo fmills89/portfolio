@@ -6,8 +6,8 @@ import Weather from '../../assets/img/weather-app.png';
 import Hookin from '../../assets/img/hookin.png';
 
 const style = {
-  workScreen: `w-full md:h-screen my-60`,
-  workContainer: `max-w-[1000px] md:text-left text-center mx-auto p-4 flex flex-col justify-center w-full h-full px-3`,
+  workScreen: `w-full md:h-[1900px] my-60`,
+  workContainer: `max-w-[1000px] md:text-left text-center mx-auto flex flex-col justify-center w-full h-full px-3`,
   workHeader: `text-4xl font-bold text-center inline border-b-4 border-[#86c913]`,
   workGrid: `grid sm:grid-cols-2 md:grid-cols-2 gap-4 pt-8`,
   imgContainer: `shadow-lg shadow-[##5f787b] rounded-md flex justify-center items-center mx-6 content-div `,
