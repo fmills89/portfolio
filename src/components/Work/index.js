@@ -3,6 +3,7 @@ import Mern from '../../assets/img/mern-group-image.png';
 import Forkify from '../../assets/img/forkify.png';
 import Brew from '../../assets/img/brew-me-image.jpg';
 import Weather from '../../assets/img/weather-app.png';
+import Hookin from '../../assets/img/hookin.png';
 
 const style = {
   workScreen: `w-full md:h-screen my-60`,
@@ -93,6 +94,23 @@ const Work = () => {
                 <button className={style.workBtn}>Demo</button>
               </a>
               <a href="https://github.com/fmills89/weather-app">
+                <button className={style.workBtn}>Repo</button>
+              </a>
+            </div>
+          </div>
+          <div className={style.projectTile}>
+            <span className={style.projectTitle}>
+              <p className={style.label}>Hookin-C</p>
+            </span>
+            <div
+              style={{ backgroundImage: `url(${Hookin})` }}
+              className={style.imgContainer}
+            ></div>
+            <div className={style.buttonContainer}>
+              <a href="https://hookinc.netlify.app/">
+                <button className={style.workBtn}>Demo</button>
+              </a>
+              <a href="https://github.com/fmills89/hookin-c">
                 <button className={style.workBtn}>Repo</button>
               </a>
             </div>

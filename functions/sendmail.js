@@ -34,7 +34,7 @@ exports.handler = async function (event, context) {
   try {
     await transporter.sendMail({
       from: data.name,
-      to: email,
+      to: 'ola.little@ethereal.email',
       subject: 'Contact Form Submission',
       html: `<p>Name: ${data.name}</p> <p>Email: ${data.email}</p> <p>Message: ${data.message}</p>`,
     });

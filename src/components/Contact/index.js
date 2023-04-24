@@ -22,8 +22,6 @@ const Contact = () => {
     err: '',
   });
 
-  console.log(data);
-
   const resetForm = () => {
     setData({
       name: '',
@@ -42,6 +40,7 @@ const Contact = () => {
 
   const handleSubmit = async e => {
     e.preventDefault();
+    console.log({ ...data });
     setData({ ...data, buttonText: 'Sending...' });
     axios
       .post('/api/sendmail', data)
