@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 const style = {
   homeContainer: `w-full h-screen mb-80`,
-  headerContainer: `max-w-[1000px] h-full m-4 md:mx-auto pl-3 flex flex-col justify-center tracking-wide leading-relaxed`,
+  headerContainer: `max-w-[1000px] h-full md:m-4 md:mx-auto pl-3 flex flex-col justify-center tracking-wide leading-relaxed`,
   headerFont: `text-2xl font-bold p-1 mb-2 boxDeco w-48`,
   header2Font: `text-5xl sm:text-7xl font-bold w-[200px] md:w-[290px] boxDeco`,
   pFont: `py-4 mt-6 max-w-[800px] font-bold md:w-2/3`,

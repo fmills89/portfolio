@@ -4,7 +4,7 @@ import axios from 'axios';
 const style = {
   container: `w-full h-screen flex justify-center items-center`,
   formContainer: `max-w-[1000px] `,
-  form: `flex flex-col w-[300px] md:w-[600px] `,
+  form: `flex flex-col w-[370px] md:w-[600px] `,
   pContainer: `pb-8 text-center md:text-left`,
   headerStyle: `text-4xl font-bold boxDeco w-[150px]`,
   textStyle: `py-2 mt-2 boxDeco w-[270px]`,

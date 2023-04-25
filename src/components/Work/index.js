@@ -9,7 +9,7 @@ const style = {
   workScreen: `w-full md:h-[1900px] my-60 `,
   workContainer: `max-w-[1000px] md:text-left text-center mx-auto flex flex-col justify-center w-full h-full px-3`,
   workHeader: `text-4xl font-bold text-center md:text-left w-24 boxDeco tracking-wide`,
-  workP: `mt-2 p-2 text-left w-[280px] boxDeco`,
+  workP: `mt-2 p-2 text-left w-[240px] boxDeco`,
   workGrid: `grid sm:grid-cols-2 md:grid-cols-2 gap-4 pt-8`,
   imgContainer: `shadow-lg shadow-[##5f787b] rounded-md flex justify-center items-center mx-4 content-div`,
   projectTitle: `text-lg font-bold tracking-wider flex justify-center`,
@@ -27,7 +27,7 @@ const Work = () => {
       <div className={style.workContainer}>
         <div className="">
           <p className={style.workHeader}>Work</p>
-          <p className={style.workP}>Check out some of my recent work.</p>
+          <p className={style.workP}>Check out some of my recent projects.</p>
         </div>
 
         <div className={style.workGrid}>

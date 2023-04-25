@@ -16,7 +16,7 @@ const style = {
   skillsScreen: `w-full md:h-screen py-40`,
   skillsContainer: `max-w-[1000px] text-center md:text-left mx-auto p-3 flex flex-col justify-center w-full h-full`,
   skillsHeader: `text-4xl font-bold text-center md:text-left w-[102px] boxDeco tracking-wide`,
-  skillsP: `mt-2 boxDeco w-64 font-bold tracking-wide text-left`,
+  skillsP: `mt-2 boxDeco w-64 tracking-wide text-left`,
   skillGrid: `w-full grid grid-cols-2 sm:grid-cols-4 md:gap-2 text-center md:mt-16 mt-10 `,
   skillsCard: ` hover:scale-110 duration-500 rounded-xl p-6 m-2 md:m-6 bg-gradient-to-t from-slate-800/50 to-emerald-900/50`,
   imgContainer: ``,
@@ -32,7 +32,7 @@ const Skills = () => {
         <div>
           <p className={style.skillsHeader}>Skills</p>
           <p className={style.skillsP}>
-            Technologies and languages I am familiar with.
+            Technologies and languages I work with.
           </p>
         </div>
         <div className={style.skillGrid}>
