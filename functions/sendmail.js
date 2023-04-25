@@ -1,18 +1,16 @@
 require('dotenv').config();
 const nodemailer = require('nodemailer');
 
-const pass = process.env.REACT_APP_NODEMAIL_PASS;
-const email = process.env.REACT_APP_NODEMAILER_EMAIL;
-const host = process.env.REACT_APP_NODEMAILER_HOST;
-const port = process.env.REACT_APP_NODEMAILER_PORT;
+const { REACT_APP_HOST, REACT_APP_PORT, REACT_APP_USER, REACT_APP_PASS } =
+  process.env;
 
-let transporter = nodemailer.createTransport({
-  host: host,
-  port: port,
+const transporter = nodemailer.createTransport({
+  host: 'smtp.ethereal.email',
+  port: 587,
   secure: false,
   auth: {
-    user: email,
-    pass: pass,
+    user: 'ola.little@ethereal.email',
+    pass: '5fNu15v8CukFpkB99v',
   },
 });
 
@@ -25,6 +23,7 @@ exports.handler = async function (event, context) {
     };
   }
   let data = JSON.parse(event.body);
+
   if (!data) {
     return {
       statusCode: 400,
@@ -45,6 +44,7 @@ exports.handler = async function (event, context) {
       }),
     };
   } catch (error) {
+    console.log(data);
     return {
       statusCode: 400,
       body: JSON.stringify(error.message),

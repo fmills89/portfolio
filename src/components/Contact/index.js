@@ -75,6 +75,9 @@ const Contact = () => {
           buttonText: 'Failed to send.',
           err: 'Fail',
         });
+        setTimeout(() => {
+          resetForm();
+        }, 2000);
       });
   };
 
