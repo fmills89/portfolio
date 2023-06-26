@@ -4,6 +4,7 @@ import Forkify from '../../assets/img/forkify.png';
 import Brew from '../../assets/img/brew-me-image.jpg';
 import Weather from '../../assets/img/weather-app.png';
 import Hookin from '../../assets/img/hookin.png';
+import Thoughts from '../../assets/img/deep_thoughts.jpg';
 
 const style = {
   workScreen: `w-full md:h-[1900px] my-60 `,
@@ -31,6 +32,23 @@ const Work = () => {
         </div>
 
         <div className={style.workGrid}>
+          <div className={style.projectTile}>
+            <span className={style.projectTitle}>
+              <p className={style.label}>Deep Thoughts</p>
+            </span>
+            <div
+              style={{ backgroundImage: `url(${Thoughts})` }}
+              className={style.imgContainer}
+            ></div>
+            <div className={style.buttonContainer}>
+              <a href="https://www.lets-talk-deep-thoughts.com/">
+                <button className={style.workBtn}>Live</button>
+              </a>
+              <a href="https://github.com/fmills89/deep-mind-thoughts">
+                <button className={style.workBtn}>Repo</button>
+              </a>
+            </div>
+          </div>
           <div className={style.projectTile}>
             <span className={style.projectTitle}>
               <p className={style.label}>Poke-Teams</p>

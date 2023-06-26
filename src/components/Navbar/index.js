@@ -156,7 +156,7 @@ const Navbar = () => {
             <li className={style.outerBottomSocial}>
               <a
                 className="socialPopoutsAccent"
-                href={require('../../assets/files/Forrest-Mills-Resume.pdf')}
+                href={require('../../assets/files/01_forrestmills_resume.pdf')}
               >
                 Resume <BsFillPersonLinesFill size={30} />
               </a>
